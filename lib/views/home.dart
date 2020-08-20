@@ -8,7 +8,6 @@ import 'package:news_app/Helper/news.dart';
 import 'package:news_app/views/article_view.dart';
 import 'package:news_app/views/category_news.dart';
 
-//
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -19,7 +18,6 @@ class _HomeState extends State<Home> {
   List<ArticleModel> articles = new List<ArticleModel>();
 
   bool _loading = true;
-//
   @override
   void initState() {
     // ignore: todo
